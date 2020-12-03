@@ -4,7 +4,7 @@ import styles from './Header.module.css';
 const header=()=>{
     return(
         <div className={styles.div} >
-            <p  className={styles.h} >C  <img src={imgs} className={styles.img}></img>VID-19</p>
+            <p  className={styles.h} >C  <img src={imgs} alt="covid" className={styles.img}></img>VID-19</p>
            
         </div>
     )
