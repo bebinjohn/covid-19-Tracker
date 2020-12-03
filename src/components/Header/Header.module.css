@@ -1,0 +1,24 @@
+:root{
+    --w:100px;
+}
+.h{
+    font-size: var(--w);
+    font-family: 'Lobster';
+    background-image: linear-gradient(red,orange);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+}
+.img{
+    width: 6%;
+    height: 3%;
+}
+.div{
+    text-align: center;
+}
+@media(max-width:1000px){
+    :root{
+        --w:50px;
+    }
+}

@@ -1,0 +1,8 @@
+.card{
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+}
+.width{
+    margin-right: 20px;
+}
